@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Akram-->
+	<link rel="stylesheet" href="../CSS/Akram/stylesheet.css">
+	<script src="../Java Script/Akram/JavaScript.js"></script>
+	<script src="../JQuery Library/jquery-3.5.1.min.js"></script>
+	<script src="../Jquery/Akram/JQuery.js"></script>
+
+	<!--Omar-->
+		<!-- Categories -->
+		<link rel="stylesheet" href="../categories/css/category.css">
+		<script src="../categories/js/category.js"></script>
+	<!--Ezz-->
+	<!--Ayman-->
+		<!-- Contact Us -->
+		<link rel="stylesheet" href="../contact us/css/all.css">
+		<link rel="stylesheet" href="../contact us/css/all.css">
+		<!--<link rel="stylesheet" href="../contact us/css/bootstrap.css">-->
+		<script src="../contact us/js/all.js"></script>
+	<title>Home</title>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<a href="" id="header-link"> <img src="../Pictures/Logo.png" id="logo"> </a>
+		</div>
+		<div class="registration">
+			<a href="../search/search.html"> <img src="../pictures/search.png" class="search-icon"> </a>
+			<input type="button"  onclick="location.href='../log in/log in.html';" id="header-login" class="header-button" value="Log In" name="header-login">
+			<input type="button"  onclick="location.href='../sign up/sign up.html';" id="header-signup" class="header-button" value="Sign Up" name="header-signup">
+		</div>
+        	<ul class="pages">
+        		<li class="nav"><a href="">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Store <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                    <div class="dropdown-content">
+                        <a href="../Store Page 1/store page 1.html">Page 1</a>
+                        <a href="../Store Page 2/store page 2.html">Page 2</a>
+                        <a href="../Store Page 3/Store Page 3.html">Page 3</a>
+                    </div>
+                </li>
+                <li class="nav"><a href="../categories/categories.html">Categories</a></li>
+                <li class="nav"><a href="#">Compare</a></li>
+                <li class="nav"><a href="../buy page/buy.html">Buy</a></li>
+                <li class="nav"><a href="../contact us/contact us.html">Contact Us</a></li>
+            </ul>
+	</header>
+
+
+	<div class="home-container">
+		<div class="home-image">
+			<img id="home-image" src="../Pictures/Home Image.png">
+			<span class="home-image-txt">
+				All you need,
+				<br>
+				For a reasonable price
+			</span>
+		</div>
+
+		<div class="welcome">
+			<h1>Welcome to <span class="automotive"> AutoMotive </span></h1>
+		</div>
+
+		<!-- Store Preview -->
+		<div class="store-preview-outline">
+			<div class="store-sticky">
+				<p>Store</p>
+			</div>
+			<div class="outline-store" style="padding-top: 70px;">
+				<div class="first-car">
+					<img src="../Pictures/Cars/2010 Hyundai Sonata.png" class="first-car">
+					<p class="name">2010 Hyundai Sonata</p>
+					<p class="price">8,599$</p>
+					<p class="info">As you'd expect of a Hyundai product, though, the Sonata is value-packed, offering desirable features for hundreds or even thousands of dollars less than its rivals.</p>
+					<input type="button"  onclick="location.href='../buy page/buy.html';" value="Purchase" name="button-store">
+					<input type="button" onclick="location.href='../cars info/2010 Hyundai Sonata.html';" value="More Info" name="button-store">
+				</div>
+				<div class="second-car">
+					<img src="../Pictures/Cars/2009 Toyota Camre.png" class="second-car">
+					<p class="name">2009 Toyota Camre</p>
+					<p class="price">9,599$</p>
+					<p class="info">The 2009 Toyota Camry's #4 ranking is based on its score within the 2009 Affordable Midsize Cars category. It was the winner of our 2009 Best Midsize Car for the Money award.</p>
+					<input type="button"  onclick="location.href='../buy page/buy.html';" value="Purchase" name="button-store">
+					<input type="button" onclick="location.href='../cars info/2009 Toyota Camre.html';" value="More Info" name="button-store">
+				</div>
+				<input type="button" id="button-home-store" onclick="location.href='../Store Page 3/Store Page 3.html';" value="View full store" name="button-store-home">
+			</div>
+			<br class="break">
+		</div>
+		<!-- End of Store Preview-->
+
+		<!-- Categories Preview-->
+		<div class="Categories-preview-outline">
+			<div class="store-sticky">
+				<p>Categories</p>
+			</div>
+			<div class="container" style="margin-bottom: 0;">
+				<div class="h1" style="color: white;">
+					<h1>Click on the following logos to show/hide cars</h1>
+				</div>
+
+				<div onclick="bmw()" class="category1">
+					<img class="logo" src="../pictures/omar/images/BMW logo.png" style="margin-left: 80px; width: 260px;">
+				</div>
+				<div class="cars1">
+					<div class="car">
+						<img id="BMW" src="../pictures/omar/images\BMW.png">
+					</div>
+					<hr>
+					<div class="button">
+						<button onclick="bmwx5()" class="btn">2020 BMW X5</button>
+
+						<button onclick="bmwx4()" class="btn">2020 BMW X4</button>
+
+						<button onclick="bmwx3()" class="btn">2020 BMW X3</button>
+
+						<button onclick="bmwx2()" class="btn">2020 BMW X2</button>
+					</div>
+				</div>
+
+				<div onclick="mercedes4()" class="category2" style="margin-left: 530px;">
+					<img class="logo" src="../pictures/omar/images/mercedes.png">
+				</div>
+				<div class="cars2">
+					<div class="car">
+						<img id="mercedes" src="../pictures/omar/images/mercedes default.jpg">
+					</div>
+					<hr>
+					<div class="button">
+						<button onclick="mercedes1()" class="btn">2020 Mercedes C30</button>
+
+						<button onclick="mercedes2()" class="btn">2020 Mercedes CLA 180</button>
+
+						<button onclick="mercedes3()" class="btn">2020 Mercedes CLS</button>
+					</div>
+				</div>
+					<input type="button" class="button-home" onclick="location.href='../categories/categories.html';" value="View all categories" name="button-store-home">
+			</div>
+			<br class="break">
+		</div>
+			<!-- End of Categories Preview-->
+
+			<!-- Contact Us -->
+		<div class="contact-preview-outline">
+			<input type="button" id="contact-us" onclick="location.href='../contact us/contact us.html';" value="Contact Us" name="button-store-home">
+			</div>
+		</div>
+			<!-- End of Contact Us-->
+		<footer>
+			<div class="footer-home">
+				Copyright &copy; Automotive Business Service, LLC.
+			</div>
+		</footer>
+
+
+	</div>
+</body>
+</html>

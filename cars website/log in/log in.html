@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log In page</title>
+</head>
+<link rel="stylesheet" href="css\log_in.css">
+<script src="js\jquery-3.4.1.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/dark.css">
+	<link rel="stylesheet" href="css/all.css">
+	<!-- <link rel="stylesheet" href="css/brown.css"> -->
+	  <link rel="shortcut icon" type="image/ico" href="img/Automotive.png">
+	<title>Nav Bar</title>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<a href="../home/home.html" id="header-link"> <img src="img/Logo.png" class="logo" width="250" height="100"> </a>
+		</div>
+		<div class="registration">
+			<button type="button" class="login_pg"  id="header-login"><i class="fas fa-user"></i><span>Log in</span></button>
+			 <button type="button" class="buy_pg"  id="header-buy" onclick="location.href='../buy page/buy.html'"><i class="fas fa-car" ></i><span>Buy page</span></button>
+		</div>
+        	<ul class="pages">
+        		<li class="nav"><a href="../home/home.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Store <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                    <div class="dropdown-content">
+                        <a href="../store page 1/store page 1.html">Page 1</a>
+                        <a href="../store page 2/store page 2.html">Page 2</a>
+                        <a href="../store page 3/store page 3.html">Page 3</a>
+                    </div>
+                </li>
+                <li class="nav"><a href="../Categories/Categories.html">Categories</a></li>
+                <li class="nav"><a href="#">Compare</a></li>
+                <li class="nav"><a href="../Search/Search.html">Search</a></li>
+                <li class="nav"><a href="../contact us/contact us.html">Contact Us</a></li>
+            </ul>
+	</header>
+	<div class="footer">
+  <p>all copyrights saved 2020 	&copy;</p>
+</div>
+<script src="js/all.js"></script>
+<div id="box" >
+    <div id="Login_text">LOG IN!</div>
+    <form id="inputs" name="login">
+    <label>Username</label>
+</br>
+    <input placeholder ="Enter name" id="name" name="userid" type="text">
+</br>
+    <label>Password</label>
+</br>
+    <input placeholder="Enter password" type="password" id="pass" name="pswrd">
+    </br>
+        <input type="checkbox">
+        <label>Remember me</label>
+    </br>
+        <a href="../reset password/page1.html">forgot password</a>
+         <input type="button" onclick="check(this.form)" value="Login" id="check_data"/>
+    </form>
+</div>
+<button onclick="location.href='../sign up/sign up.html'" id="sign_up-_path" >Go to sign-up page >></button>
+<div id="login_error"></div>
+<script src="js\log_in.js"></script>
+</body>
+
+</html>

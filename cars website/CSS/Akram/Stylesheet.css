@@ -1,0 +1,385 @@
+body{
+	background-color: #333333;
+	color: #fff;
+}
+
+
+	/* Password Reset */
+.outline-reset,.outline-reset2{
+	padding-top: 120px;
+	margin: auto;
+	width: 26%;
+}
+
+div.container-reset{
+	background-color: #f0f0f0;
+	width: 379.5px;
+	margin-bottom: 0;
+	padding: 60px 0 30px 0;
+}
+
+p.reset-text{
+	color: #fff;
+	padding: 15px;
+	border: 10px;
+	width:350px;
+	margin: auto;
+	text-align: center;
+	font-size: 30px; 
+	background-color: black;
+}
+
+#message{
+	position: relative;
+	color: black;
+	left: 120px;
+}
+
+input[type=email], input[type=password]{
+	box-sizing: border-box;
+	width: 300px;
+	padding: 15px;
+	margin: 10px 40px; 
+	border: 3px solid #ccc;
+	outline: none;
+}
+input[type=email]:focus ,input[type=password]:focus{
+	transition: 0.8s;
+	border: 3px solid #000;
+}
+input[type=button]{
+	background-color: black;
+	color: white;
+	padding: 15px 20px;
+	margin: 10px 0px;
+	border: 0px;
+	text-decoration: none;
+	cursor: pointer;
+}
+input[name=button-reset]{
+	margin: 15px 0px 15px 145px;
+}
+
+input[type=button]:hover{
+	transition: 0.4s;
+	background-color: #737373;
+}
+
+
+.message{
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+	width: 363px;
+	position: relative;
+	left: 36.8%;
+	margin-top: -12px;
+}
+	/* End of Password Reset*/
+
+
+
+	/* Header */
+
+/*Image/Logo*/
+#logo{
+	width:10%;
+	margin: 5px 0;
+}
+div.header{
+	position: fixed;
+	height: 60px;
+	background-color: black;
+	margin: -8px -8px 0px -8px;
+	z-index: 100;
+}
+#header-link{
+	position: relative;
+	left:620px;
+	top: 5px;
+}
+/*end of Image/logo*/
+
+
+/*Nav Bar*/
+.pages a {
+  text-decoration: none;
+}
+.nav {
+display: inline;
+margin:15px 10px;
+}
+.dropbtn{
+  margin: 0 10px;
+}
+.pages {
+position:fixed;
+top: -20px;
+left: -5px;
+font-size:20px;
+background-color: black;
+text-align:center;
+padding:18px;
+z-index: 100;
+}
+.pages a {
+text-align:center;
+color:white;
+}
+.pages a:hover ,.dropdown:hover .dropbtn {background-color:#737373;}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #737373;
+  width: 70px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+.dropdown-content a {
+  color: black;
+  padding: 8px 10px;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*end of Nav Bar*/
+
+/*Register buttons*/
+.search-icon{
+	width: 2%;
+	z-index: 100;
+	position: fixed;
+	left: 1115px;
+	top: 17px;
+}
+.header-button{
+	background-color: #262626 !important;
+	margin-right: -4px !important;
+	position: fixed;
+	top: -2px;
+	z-index: 100;
+}
+.header-button:hover{
+	background-color: #737373 !important;
+}
+#header-login{
+	left: 1160px;
+}
+#header-signup{
+	left: 1250px;
+	margin-left: -5px;
+}
+/*end of Register buttons*/
+
+	/*End of Header*/
+
+
+
+
+	/* Store Page*/
+
+img.first-car,img.second-car,img.third-car,img.fourth-car{
+	width: 100%;
+}
+
+.outline-store{
+	padding-top: 100px;
+	margin: 0 170px;
+	display: grid;
+	grid-template-columns: 500px 500px;
+}
+div.outline-store div{
+	background-color: #4d4d4d;
+	max-width: 600px;
+	padding: 10px;
+	margin: 20px 50px;
+	text-align: center;
+}
+
+.store3-nav-buttons{
+	width: 100%;
+}
+#prev-btn{
+	position: relative;
+	left: 200px;
+}
+#next-btn{
+	float: right;
+	position: relative;
+	right: 200px;
+}
+
+p.name{
+	font-weight: bold;
+	font-size:38px;
+	font-family: times new roman;
+}
+p.price{
+	font-size: 30px;
+	color: #bfbfbf;
+}
+p.info{
+	font-size: 18px;
+	color: black;
+}
+	/*End of Store Page*/
+
+
+
+
+	/*Car Info Page*/
+.outline-car-info{
+	padding-top: 150px;
+	display: flex;
+}
+
+div.left-column-car-info{
+	width: 50%;
+	margin: 20px;
+}
+
+.left-column-car-info img{
+	width: 100%;
+	overflow: auto;
+}
+.right-column-car-info{
+	width: 50%;
+	margin: 0 20px;
+	text-align: center;
+}
+#car-info-note{
+	opacity: 0.4;
+}
+
+.car-specs{
+	width: 100%;
+	display: flex;
+}
+.car-specs-lcol{
+	width: 50%;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.car-specs-rcol{
+	width: 50%;
+	margin-right: 20px;
+	margin-left: 0;
+}
+.car-specs-row{
+	margin: 10px 0;
+	padding-bottom: 25px;
+	border-bottom: 2px solid;
+}
+.car-specs-label{
+	float: left;
+}
+.car-specs-value{
+	float: right;
+}
+
+.car-info-price p{
+	margin-top: 30px;
+	margin-bottom: 0;
+	font-size: 24px;
+	color: #bfbfbf;
+}
+	/* End of Car Info*/
+
+
+	/* Home */
+
+/*Opening Image*/
+.home-container{
+	padding-top: 40px;
+}
+#home-image{
+	margin: 0px -10px;
+	width: 101.25%;
+	height:20%;
+	opacity: 0.6;
+}
+.home-image{
+	width: 100%;
+	max-height: 450px;
+	padding: 0;
+}
+.home-image-txt{
+	width: 101.25%;
+	text-align: center;
+	position: relative;
+	bottom: 300px;
+	left: 400px;
+	color: white;
+	font-family:Arial,sans-serif;
+	font-weight: bold;
+	font-size: 61px;
+}
+/*End of opening image*/
+
+.welcome{
+	background-color: #4d4d4d;
+	width: 100%;
+	margin: -8px -7px;
+	padding: 17px 7px;
+	text-align: center;
+	font-family:Arial,sans-serif;
+}
+.automotive{
+	color: orange;
+}
+
+/*Store Preview*/
+.store-sticky, .store-sticky > p{
+	position: sticky;
+	top: 60px;
+	background-color: #262626;
+	width: 100%;
+	margin: -8px -7px;
+	padding: 13px 7px;
+	text-align: center;
+	font-family:Arial,sans-serif;
+	font-size: 25px;
+	z-index: 99;
+}
+
+#button-home-store{
+	position: relative;
+	left: 50%;
+}
+.button-home{
+	position: relative;
+	left: 400px;
+	width: 500px;
+}
+.break{
+	margin-bottom: 20px;
+}
+/* End of Store Preview */
+
+
+/* Footer */
+#contact-us{
+	position: relative;
+	top: 120px;
+}
+
+.footer-home{
+	text-align: center;
+	padding: 60px 20px;
+	background-color: black;
+	margin: 0 -8px;
+	margin-top: 90px;
+	position: relative;
+	top: 20px;
+}
+/* End of Footer*/
+
+	/*End of Home*/

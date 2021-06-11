@@ -1,0 +1,154 @@
+body
+{
+background-color:rgba(139, 201, 183,0.3);
+}
+.name_car_2
+{
+position:absolute;
+top:18%;
+left:30%;
+font-size:40px;
+font:bold;
+}
+.img_sli
+{
+position:absolute;
+top:29%;
+left:20%;
+}
+/* Slideshow container */
+.slideshow-container {
+
+  max-width: 700px;
+  position: relative;
+ left:10%;
+  margin: auto;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  background-color:black;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: white;
+  color:brown;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+  color:#f2f2f2;
+  font-size:12px;
+  padding:8px 12px;
+  position:absolute;
+  top: 0;
+}
+
+/*The dots*/
+.dot {
+position:relative;
+left:10%;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+table
+{
+position:absolute;
+top:120%;
+left:10%;
+width:80%;
+}
+td,th
+{
+border:solid 2px;
+text-align: left;
+width:60%;
+border-color:purple;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+table, th, td {
+  border-collapse: collapse;
+}
+#buy
+{
+width:15%;
+height:7.5%;
+font-size:18px;
+background:turquoise;
+color:black;
+}
+#buy:hover
+{
+cursor:pointer;
+background-color:white;
+color:brown;
+}
+#can
+{
+background-color:rgba(120, 104, 115,0.2)
+}

@@ -1,0 +1,101 @@
+<doctype html>
+<html>
+<head>
+	<title>Categories</title>
+	<link rel="stylesheet" href="css\category.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/all.css">
+ 	<link rel="stylesheet" href="css/brown.css"> 
+ 	<link rel="shortcut icon" type="image/ico" href="images/Automotive.png">
+ </head>
+ <body>
+ 	<header>
+ 		<div class="header">
+			<a href="" id="header-link"> <img src="images/Logo.png" class="logo" width="250" height="100"> </a>
+		</div>
+		<div class="registration">
+			<button type="button" class="login_pg" id="header-login" onclick="location.href='../log in/log in.html '"><i class="fas fa-user"></i><span>Log in</span></button>
+			 <button type="button" class="buy_pg"  id="header-buy" onclick="location.href='../buy page/buy.html '"><i class="fas fa-car" ></i><span>Buy page</span></button>
+		</div>
+        	<ul class="pages">
+        		<li class="nav"><a href="../home/home.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Store <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                    <div class="dropdown-content">
+                        <a href="../store page 1/store page 1.html">Page 1</a>
+                        <a href="../store page 2/store page 2.html">Page 2</a>
+                        <a href="../store page 3/store page 3.html">Page 3</a>
+                    </div>
+                </li>
+                <li class="nav"><a href="../categories/categories.html">Categories</a></li>
+                <li class="nav"><a href="#">Compare</a></li>
+                <li class="nav"><a href="../search/search.html">Search</a></li>
+                <li class="nav"><a href="../contact us/contact us.html">Contact Us</a></li>
+            </ul>
+	</header>
+	<div class="container">
+		<div class="h1">
+			<h1>Click on the following logos to show/hide cars</h1>
+		</div>
+
+		<div onclick="bmw()" class="category1">
+			<img class="logo" src="images/BMW logo.png">
+		</div>
+		<div class="cars1">
+			<div class="car">
+				<img id="BMW" src="images\BMW.png">
+			</div>
+			<hr>
+			<div class="button">
+				<button onclick="bmwx5()" class="btn">2020 BMW X5</button>
+
+				<button onclick="bmwx4()" class="btn">2020 BMW X4</button>
+
+				<button onclick="bmwx3()" class="btn">2020 BMW X3</button>
+
+				<button onclick="bmwx2()" class="btn">2020 BMW X2</button>
+			</div>
+		</div>
+
+		<div onclick="mercedes4()" class="category2">
+			<img class="logo" src="images/mercedes.jpg">
+		</div>
+		<div class="cars2">
+			<div class="car">
+				<img id="mercedes" src="images\mercedes default.jpg">
+			</div>
+			<hr>
+			<div class="button">
+				<button onclick="mercedes1()" class="btn">2020 Mercedes C30</button>
+
+				<button onclick="mercedes2()" class="btn">2020 Mercedes CLA 180</button>
+
+				<button onclick="mercedes3()" class="btn">2020 Mercedes CLS</button>
+			</div>
+		</div>
+
+		<div onclick="hyundai4()" class="category3">
+			<img class="logo" src="images/hundailogo.jpg">
+		</div>
+		<div class="cars3">
+			<div class="car">
+				<img id="hyundai" src="images\hyundai default.jpg">
+			</div>
+			<hr>
+			<div class="button">
+				<button onclick="hyundai1()" class="btn">2020 Hyundai Elantra </button>
+
+				<button onclick="hyundai2()" class="btn">2020 Hyundai Accent</button>
+
+				<button onclick="hyundai3()" class="btn">2020 Hyundai Verna </button>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p>all copyrights saved 2020 	&copy;</p>
+	</div>
+	<script src="js\jquery-3.4.1.min.js"></script>
+	<script src="js\category.js"></script>
+	<script src="js/all.js"></script>
+</body>
+</html>

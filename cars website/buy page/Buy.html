@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Welcome To My Website">
+        <link rel="shortcut icon" type="image/ico" href="IMG/Automotive.png">
+        <title>
+           Buy page
+        </title>
+        <link rel="stylesheet" href="CSS/all.css">
+        <link rel="stylesheet" href="CSS/main.css">
+    </head>
+    <body>
+        <header>
+
+
+                <img src="IMG/Logo.png" width="250" height="100" alt="Automotive">
+                <ul class="pages">
+                    <li class="nav"><a href="../home/home.html">Home</a></li>
+                    <li class="dropdown">
+    <a href="#" class="dropbtn">Store <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+    <div class="dropdown-content">
+      <a href="../store page 1/store page 1.html">page 1</a>
+      <a href="../store page 2/store page 2.html">page 2</a>
+      <a href="../store page 3/store page 3.html">page 3</a>
+    </div>
+  </li>
+                    <li class="nav"><a href="../Categories/Categories.html">Categories</a></li>
+                    <li class="nav"><a href="#">Comparison</a></li>
+                    <li class="nav"><a href="../Search/Search.html">Search The Store</a></li>
+                    <li class="nav"><a href="../contact us/contact us.html">Contact Us</a></li>
+                </ul>
+                <div>
+
+                    <button type="button" class="login_pg" onclick="location.href='../log in/log in.html'"><i class="fas fa-user"></i><span>Log in</span></button>
+                    <button type="button" class="buy_pg" onclick="location.href='../buy page/buy.html'"><i class="fas fa-car"></i><span>Go to buy page</span></button>
+                </div>
+
+        </header>
+        <div id="welcome" style="text-align:center; font-size:30px;">welcome to Buy page</div>
+        <form>
+        <label id="pay_style" style="font-size:24px;">*Choose how to pay </label>
+        <br>
+        <input type="radio" name="pay"> <label style="font-size:20px;">visa</label> <br>
+        <input type="radio" name="pay"> <label style="font-size:20px;">Credit card</label> <br>
+       <label id="postal" style="font-size:24px;">*Please enter postal code</label>
+        <br>
+        <input type="text" name="pay"><br>
+        <label style="font-size:24px;">*Enter your pin number</label> <br>
+<input type="text" size="4" maxlength="4" name="pay"> <br>
+        <label style="font-size:24px;">*Choose your car</label> <br>
+        <select id="car"  style="font-size:24px;" name="pay">
+    <option value="10599" >Toyota camre 2009</option>
+    <option value="7998" >Hyundai sonata 2010</option>
+    <option value="22534.55" >Kia ceed 2020</option>
+     <option value="11998" >Nissan Altima sr 2012</option>
+            <option value="14998" >Honda Cr-v</option>
+         <option value="10390" >Cherry Arrizo 5</option>
+             <option value="11261" >Nissan sunny 2020</option>
+             <option value="7505.26" >Zotye Z100 2020</option>
+            <option value="80000" >Skoda Kodiaq 2019</option>
+            <option value="84500" >JAGUAR XJ 2019</option>
+            <option value="	100000" >mercedes-benz e-class 2019</option>
+        </select>
+        <select id="currency" style="font-size:24px;">
+    <option value="1" >dollar</option>
+    <option value="1.5" >euro</option>
+    <option value="3" >dirham</option>
+    <option value="16" >Egy pound</option>
+        </select>
+         <button type="button" class="calc" onclick="calc()" style="font-size:24px; height:30px; background-color:green;"><span>Calculate</span> <i class="fa fa-calculator"></i></button>
+        <div id="result"></div>
+        <br> <br>
+        <button type="reset" name="pay" id="reset" >Reset</button>
+        </form>
+        <button id="home" onclick="location.href='../home/home.html'">Home page</button>
+        	<div class="footer">
+  <p>all copyrights saved 2020 	&copy;</p>
+</div>
+        <script src="JS/all.js"></script>
+        <script src="JS/JQuery.js"></script>
+    <script src="js/buy.js"></script>
+    </body>
+</html>

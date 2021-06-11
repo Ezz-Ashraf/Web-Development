@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>sign up page</title>
+</head>
+	<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/brown.css">
+	  <link rel="shortcut icon" type="image/ico" href="img/Automotive.png">
+	<title>Nav Bar</title>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<a href="../home/home.html" id="header-link"> <img src="img/Logo.png" class="logo" width="250" height="100"> </a>
+		</div>
+		<div class="registration">
+			<button type="button" class="login_pg"  id="header-login" onclick="location.href='../log in/log in.html'"><i class="fas fa-user"></i><span>Log in</span></button>
+			 <button type="button" class="buy_pg"  id="header-buy" onclick="location.href='../buy page/buy.html'"><i class="fas fa-car" ></i><span>Buy page</span></button>
+		</div>
+        	<ul class="pages">
+        		<li class="nav"><a href="../home/home.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Store <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                    <div class="dropdown-content">
+                        <a href="../store page 1/store page 1.html">Page 1</a>
+                        <a href="../store page 2/store page 2.html">Page 2</a>
+                        <a href="../store page 3/store page 3.html">Page 3</a>
+                    </div>
+                </li>
+                <li class="nav"><a href="../Categories/Categories.html">Categories</a></li>
+                <li class="nav"><a href="#">Compare</a></li>
+                <li class="nav"><a href="../Search/search.html">Search</a></li>
+                <li class="nav"><a href="../contact us/contact us.html">Contact Us</a></li>
+            </ul>
+	</header>
+	<div class="footer">
+  <p>all copyrights saved 2020 	&copy;</p>
+</div>
+<div id="head">
+    <div id="sign_up_text">sign-up</div>
+</div>
+    <form id="information" name="sign up">
+    <label><i>Username</i></label>
+</br>
+    <input placeholder ="Enter name" id="name" name="userid" type="text">
+</br>
+           <label><i>Re-enter Username</i></label>
+</br>
+    <input placeholder ="Enter name" id="re-name" name="re_userid" type="text">
+</br>
+        <div id="name_error" style="color:red"></div>
+    </br>
+           <label><i>E-mail</i></label>
+</br>
+    <input placeholder ="Enter e-mail" id="e-mail" name="mailid" type="email">
+</br>
+    <label><i>Password</i></label>
+</br>
+    <input placeholder="Enter password" type="password" id="pass" name="pswrd">
+    </br>
+    <label><i>Re-enter Password</i></label>
+</br>
+    <input placeholder="Enter password" type="password" id="re_pass" name="re_pswrd">
+    </br>
+        <div id="pass_error" style="color:red"></div>
+        </br>
+        <input type="checkbox" id="remember">
+        <label><i>Send updates on e-mail</i></label>
+    </br>
+         <input type="button" onclick="check(this.form)" value="sign up" id="check_data"/>
+    </form>
+<button id="dark_theme" >dark theme</button>
+<button id="brown_theme" <!--onclick="brown() -->">brown theme</button>
+</body>
+<script src="js/all.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js\sign up.js" ></script>
+</html>

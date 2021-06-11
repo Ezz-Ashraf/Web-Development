@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" id="pagestyle" href="css/search.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="shortcut icon" type="image/ico" href="images/Automotive.png">
+</head>
+<body>
+<header>
+		<div class="header">
+			<a href="../home/home.html" id="header-link"> <img src="images/Logo.png" class="logo" width="250" height="100"> </a>
+		</div>
+		<div class="registration">
+			<button type="button" class="login_pg"  id="header-login" onclick="location.href='../log in/log in.html '"><i class="fas fa-user"></i><span>Log in</span></button>
+			 <button type="button" class="buy_pg"  id="header-buy" onclick="location.href='../buy page/buy.html '"><i class="fas fa-car" ></i><span>Buy page</span></button>
+		</div>
+        	<ul class="pages">
+        		<li class="nav"><a href="../home/home.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Store <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                    <div class="dropdown-content">
+                        <a href="../store page 1/store page 1.html">Page 1</a>
+                        <a href="../store page 2/store page 2.html">Page 2</a>
+                        <a href="../store page 3/store page 3.html">Page 3</a>
+                    </div>
+                </li>
+                <li class="nav"><a href="../categories/categories.html">Categories</a></li>
+                <li class="nav"><a href="#">Compare</a></li>
+                <li class="nav"><a href="search.html">Search</a></li>
+                <li class="nav"><a href="../contact us/contact us.html">Contact Us</a></li>
+            </ul>
+	</header>
+<div class="mode">
+<button class="button1" onclick="swapStyleSheet('css/darkmode.css')">Dark mode</button>
+<button class="button2" onclick="swapStyleSheet2('css/search.css')">Light mode</button>
+</div>
+<div class="container">
+<div class="searchbar">
+<input type="text" id="search" onkeyup="searchfunction()" placeholder="Search Here..">
+</div>
+<div class="list">
+<ul class="ul">
+<li class="li">
+<div class="name"><a href="../Store page 2/info/kia.html">Kia Ceed</a></div>
+<hr>
+<div class="image"><img src="images/kia.jpg"></div>
+</li>
+<li class="li">
+<div class="name"><a href="../Store page 2/info/zotye.html">Zotye Z100 2020</a></div>
+<hr>
+<div class="image"><img src="images/zotye.jpg"></div>
+</li>
+<li class="li">
+<div class="name"><a href="../Store page 2/info/cherry.html">Chery Arrizo 5</a></div>
+<hr>
+<div class="image"><img src="images/arrizo.jpg"></div>
+</li>
+<li class="li">
+<div class="name"><a href="../Store page 2/info/nissan.html">Nissan Sunny</a></div>
+<hr>
+<div class="image"><img src="images/nissan.png"></div>
+</li>
+<li class="li">
+<div class="name"><a href="../Cars Info/2009 Toyota Camre.html">2009 Toyota Camre</a></div>
+<hr>
+<div class="image"><img src="images/2009 Toyota Camre.png"></div>
+</li>
+<li class="li">
+<div class="name"><a href="../Cars Info/2010 Hyundai Sonata.html">2010 Hyundai Sonata</a></div>
+<hr>
+<div class="image"><img src="images/2010 Hyundai Sonata.png"></div>
+</li>
+<li class="li">
+<div class="name"><a href="../Cars Info/2012 Nissan Altima SR.html" >2012 Nissan Altima SR</a></div>
+<hr>
+<div class="image"><img src="images/2012 Nissan Altima SR.png"></div>
+</li>
+<li class="li">
+<div class="name"><a href="../Cars Info/2013 Honda CR-V.html">2013 Honda CR-V</a></div>
+<hr>
+<div class="image"><img src="images/2013 Honda CR-V.png"></div>
+</li>
+<li class="li">
+<div class="name"><a href="../Store Page 1/info_3/info_3.html">2019 Skoda Kodiaq</a></div>
+<hr>
+<div class="image"><img src="images/2019 Skoda Kodiaq.jpg"></div>
+</li>
+<li class="li">
+<div class="name"><a href="../store page 1/info_1/info_1.html">2019 mercedes-benz e-class</a></div>
+<hr>
+<div class="image"><img src="images/2019 mercedes-benz e-class.jpg"></div>
+</li>
+<li class="li">
+<div class="name"><a href="../store page 1/info_2/info_2.html">2019 JAGUAR XJ</a></div>
+<hr>
+<div class="image"><img src="images/2019 JAGUAR XJ.jpg"></div>
+</li>
+</div>
+</div>
+<div class="footer">
+  <p>all copyrights saved 2020 	&copy;</p>
+</div>
+<script src="js/all.js"></script>
+<script type="text/javascript" src="js/search.js">
+</script>
+</body>
+</html>

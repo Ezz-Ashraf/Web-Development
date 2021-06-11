@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../CSS/Akram/stylesheet.css">
+	<script src="../Java Script/Akram/JavaScript.js"></script>
+	<script src="../JQuery Library/jquery-3.5.1.min.js"></script>
+	<script src="../Jquery/Akram/JQuery.js"></script>
+	<title>Reset Password</title>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<a href="" id="header-link"> <img src="../Pictures/Logo.png" id="logo"> </a>
+		</div>
+	</header>
+
+	
+	<div class="outline-reset">
+		<p class="reset-text"> Reset Password </p>
+		<div class="container-reset">
+			<input type="password" id="password" name="password" onkeyup="checkpass();" placeholder="Enter new password">
+			<input type="password" id="confirm_password" name="confirm_password" onkeyup="checkpass();" placeholder="Confirm new password">
+			<p id="message">Enter a password</p>
+			<input type="button" id= "sumbit_pass" onclick="location.href='page1.html';" value="Done" name="button-reset" disabled>
+		</div>
+	</div>
+</body>
+</html>
